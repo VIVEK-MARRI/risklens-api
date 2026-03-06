@@ -110,7 +110,7 @@ All dependencies are listed in `requirements.txt`.
 ## 🙌 Acknowledgements
 
 - Dataset: [Credit Card Fraud Detection dataset on Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud)
-- SHAP: SHapley Additive exPlanations for model interpretability
+- SHAP: SHapley Additive exPlanations for model interpretability.
 
 ---
 
