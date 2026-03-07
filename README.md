@@ -103,7 +103,7 @@ You can input 30 features (`V1–V28`, `Amount`, `Time`) on the dashboard and in
 - pandas
 - numpy
 
-All dependencies are listed in `requirements.txt`.
+All dependencies are listed in `requirements.txt`
 
 ---
 
