@@ -37,17 +37,15 @@ A compact, production-minded reference implementation for **credit-card fraud ri
 
 ## Architecture
 
-```text
-┌──────────────┐        HTTP         ┌───────────────┐
-│ Streamlit UI │  ───────────────▶   │   Flask API   │
-│ dashboard.py │                    │    app.py     │
-└──────────────┘                    └───────┬───────┘
-                                            │
-                                            │ loads
-                                            ▼
-                                     ┌───────────────┐
-                                     │ risk_model.pkl │
-                                     └───────────���───┘
+```mermaid
+flowchart LR
+  UI["Streamlit UI\n(dashboard.py)"]
+  API["Flask API\n(app.py)"]
+  MODEL[("risk_model.pkl\nRandom Forest")]
+
+  UI -- "HTTP (JSON)" --> API
+  API -- "load model" --> MODEL
+  API -- "predict + SHAP" --> UI
 ```
 
 ---
