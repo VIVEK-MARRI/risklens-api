@@ -219,4 +219,4 @@ Optional (if you add them):
 
 ## License
 
-MIT — see `LICENSE`.
+MIT — see `LICENSE`..
