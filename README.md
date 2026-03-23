@@ -213,7 +213,7 @@ Optional (if you add them):
 ## Acknowledgements
 
 - Dataset: Credit Card Fraud Detection dataset on Kaggle
-- SHAP: SHapley Additive exPlanations.
+- SHAP: SHapley Additive exPlanations
 
 ---
 
